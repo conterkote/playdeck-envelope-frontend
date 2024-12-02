@@ -1,0 +1,26 @@
+.popout-header {
+    background: rgba(112, 47, 219, 0.8);
+    box-shadow: inset 0px 0px 0px 3px rgba(255, 255, 255, 0.1);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.popout-header-text {
+    letter-spacing: 0.03em;
+    color: #EBECEE;
+    paint-order: stroke fill;
+    -webkit-text-stroke: 4px #4A30B3;
+    text-shadow:
+            1px 1px 0px #4A30B3,
+            -1px 1px 0px #4A30B3,
+            -1px -1px 0 #4A30B3,
+            1px -1px 0 #4A30B3,
+            0px 1px 0px #4A30B3;
+}
+
+.popout-selected-interval-gradient {
+    background: rgb(102,47,255);
+    background: -moz-linear-gradient(0deg, rgba(102,47,255,1) 0%, rgba(105,129,255,1) 2%, rgba(23,5,66,0.3) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(102,47,255,1) 0%, rgba(105,129,255,1) 2%, rgba(23,5,66,0.3) 100%);
+    background: linear-gradient(0deg, rgba(102,47,255,1) 0%, rgba(105,129,255,1) 2%, rgba(23,5,66,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#662fff",endColorstr="#170542",GradientType=1);
+}

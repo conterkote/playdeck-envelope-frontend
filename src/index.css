@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Aqum2classic';
+  src: url('./assets/fonts/Aqum2classic.otf') format('opentype'); /* Путь относительно index.css */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'franxurtertotally';
+  src: url('./assets/fonts/franxurtertotallyfat.ttf') format('truetype'); /* Путь относительно index.css */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'franxurtertotally';
+  src: url('./assets/fonts/franxurtertotallymedium.ttf') format('truetype'); /* Путь относительно index.css */
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Aqum2classic", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #7938E8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background {
+  background: rgb(102,47,255);
+  background: -moz-linear-gradient(180deg, rgba(102,47,255,1) 0%, rgba(127,127,249,1) 50%, rgba(143,192,250,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(102,47,255,1) 0%, rgba(127,127,249,1) 50%, rgba(143,192,250,1) 100%);
+  background: linear-gradient(180deg, rgba(102,47,255,1) 0%, rgba(127,127,249,1) 50%, rgba(143,192,250,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#662fff",endColorstr="#8fc0fa",GradientType=1);
+}
+
+.font-franxurter {
+  font-family: franxurtertotally, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

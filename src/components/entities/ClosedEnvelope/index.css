@@ -1,0 +1,7 @@
+.background-light {
+    width: 289px;
+    height: 224px;
+
+    background: rgba(255, 204, 204, 0.8);
+    filter: blur(37px);
+}

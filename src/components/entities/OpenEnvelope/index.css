@@ -1,0 +1,24 @@
+.background-light {
+    width: 289px;
+    height: 224px;
+
+    background: rgba(255, 204, 204, 0.8);
+    filter: blur(37px);
+}
+
+.slide-up-paper {
+    animation-name: slide-up-paper-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up-paper-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-90px);
+    }
+}

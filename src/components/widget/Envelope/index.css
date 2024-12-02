@@ -1,0 +1,20 @@
+.envelope-lowering {
+    animation-name: envelope-lowering-animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.envelope-lowered {
+    transform: translateY(60px)
+}
+
+@keyframes envelope-lowering-animation {
+    0% {
+        transform: translateY(0)
+    }
+
+    100% {
+        transform: translateY(106px)
+    }
+}
